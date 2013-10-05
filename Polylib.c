@@ -129,7 +129,7 @@ termNode* mulPoly(termNode* P, termNode* Q) {
 	return mulTerm;
 }
 
-//MULTIPLY NEGATIVE POLYNOMIALS
+//NEGATION OF THE POLYNOMIAL 
 termNode* mulNeg(termNode *P) {
     termNode *st = P;
     while(st != NULL)
